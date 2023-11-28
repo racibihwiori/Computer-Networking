@@ -1,5 +1,6 @@
 import heapq
 
+
 def dijkstra_algorithm(graph, start_node):
     num_nodes = len(graph)
     distances = [float('infinity')] * num_nodes
